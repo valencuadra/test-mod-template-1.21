@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "test-mod:item/caca"
+    "layer0": "testmod:item/caca"
   }
 }
