@@ -2,7 +2,9 @@ package net.testo.testmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.testo.testmod.block.ModBlocks;
 import net.testo.testmod.item.ModItems;
+import net.testo.testmod.item.ModItemsGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +14,8 @@ public class TestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Niggers!");
+        ModItemsGroups.registerItemGroups();
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }

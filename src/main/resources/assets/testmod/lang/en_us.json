@@ -1,3 +1,5 @@
 {
-  "item.testmod.caca":"caca"
+  "item.testmod.caca": "caca",
+  "block.testmod.shit_block": "shit block",
+  "itemgroup.testmod.shit_items": "shit items"
 }

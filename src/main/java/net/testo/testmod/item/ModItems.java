@@ -17,7 +17,6 @@ public class ModItems {
     }
 
     public static void registerModItems(){
-        TestMod.LOGGER.info("Piroca");
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(CACA);
         });
